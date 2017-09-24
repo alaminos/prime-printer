@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(ulamspiral.png);
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+main {   
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+    padding: 30px;
+    background-color: rgba(169, 172, 169, 0.83);
+
+    color: #3f3244;
+    font-family: "Russo One";
+    
+}
+
+button {
+    font-family: inherit;
+    width: 100px;
+}
+
+#grid {
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 12px;
+}
+
+
+.grid-cell {
+    width: 100px;   
+    height: 50px;
+    padding: 1px;
+    background-color:#2F2235;
+
+    color: #BFC3BA;
+    text-align: center;
+    line-height: 50px;
+}
